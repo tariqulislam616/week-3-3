@@ -1,0 +1,114 @@
+.Wrapper{
+    height: 1000px;
+    width: 100%;
+    background-color: gray;
+}
+.Content{
+    height: 600px;
+    width: 100%;
+    background-color: buttontext;
+}
+
+.Content .ONE{
+    height: 300px;
+    width: 40%;
+    background-color: blue;
+    float: left;
+    transform: rotate(0deg);
+    transition: all 2s;
+    background-image: url(images/favicon.jpg);
+    background-size: cover;
+}
+.Content .ONE:hover{
+    transform: rotate(180deg) scale(3);
+}
+.Content .TWO{
+    height: 300px;
+    width: 30%;
+    background-color: red;
+    float: left;
+    transform: scale(1);
+    transition: all 2s;
+    background-image: url(images/pic-1.jpg);
+    background-size: cover;
+}
+.Content .TWO:hover{
+    transform: scale(2) skewY(-40deg);
+}
+.Content .THREE{
+    height: 300px;
+    width: 30%;
+    background-color: burlywood;
+    float: left;
+    transform: scale(1);
+    transition: all 2s;
+    background-image: url(images/pic-2.jpg);
+    background-size: cover;
+}
+.Content .THREE:hover{
+    transform: scale(2) skewY(-40deg);
+}
+.Content .FOUR{
+    height: 300px;
+    width: 30%;
+    background-color: green;
+    float: left;
+    transform: scale(1);
+    transition: all 2s;
+    background-image: url(images/pic-3.jpg);
+    background-size: cover;
+}
+.Content .FOUR:hover{
+    transform: scale(2) skewY(-40deg);
+}
+.Content .FIVE{
+    height: 300px;
+    width: 30%;
+    background-color: violet;
+    float: left;
+    transform: scale(1);
+    transition: all 2s;
+    background-image: url(images/pic-4.jpg);
+    background-size: cover;
+}
+.Content .FIVE:hover{
+    transform: scale(2) skewY(-40deg);
+}
+.Content .SIX{
+    height: 300px;
+    width: 30%;
+    background-color: teal;
+    float: left;
+    transform: scale(1);
+    transition: all 2s;
+    background-image: url(images/pic-5.jpg);
+    background-size: cover;
+}
+.Content .SIX:hover{
+    transform: scale(2) skewY(-40deg);
+}
+.Content .SEVEN{
+    height: 300px;
+    width: 30%;
+    background-color: tomato;
+    float: left;
+    transform: scale(1);
+    transition: all 2s;
+    background-image: url(images/pic-6.jpg);
+    background-size: cover;
+}
+.Content .SEVEN:hover{
+    transform: scale(2) skewY(-40deg);
+}
+.Content .EIGHT{
+    height: 300px;
+    width: 30%;
+    background-color: turquoise;
+    float: left;
+    transform: scale(1);
+    transition: all 2s;
+    background-image: url(images/pic-7.jpg);
+    background-size: cover;
+}
+.Content .EIGHT:hover{
+    transform: scale(2) skewY(-40deg);
